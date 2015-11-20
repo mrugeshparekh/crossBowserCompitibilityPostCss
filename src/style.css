@@ -1,0 +1,61 @@
+.test{
+    background: black;
+}
+
+/*Test autoprefixer*/
+
+@keyframes animationExample{
+    from{
+	width: 0;
+    }
+    to{
+	width: 100%;
+    }
+}
+
+.animateThis{
+    animation: animationExample 2s;
+    display: flex;
+}
+
+/*Test will-change*/
+
+.thisWillChange{
+    will-change: transform;
+}
+
+/*Test postcss-color-rgba-fallback*/
+
+.rgbaFallBack{
+    background: rgba(0,0,0,0.5);
+}
+
+/*Test postcss-opacity*/
+
+.opacityFallback{
+    opacity: 0.5;
+}
+
+/*Test pseudoelements*/
+
+.pseudo-element::before{
+    content: '';
+}
+
+/*Test postcss-vmin*/
+
+.vmFallBack{
+    width: 50vmin;
+}
+
+/*Test pixrem*/
+
+.remFallBack{
+    height: 10rem;
+    font: 2rem Arial;
+}
+
+.remFallback::before{
+    content: '';
+    line-height: 1rem;
+}

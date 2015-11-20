@@ -1,0 +1,34 @@
+{
+  "name": "postcss_crossbrowsercompitibility",
+  "version": "1.0.0",
+  "description": "Example of crsoo browser using PostCss",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrugeshparekh/crossBowserCompitibilityPostCss.git"
+  },
+  "keywords": [
+    "PostCss",
+    "crossbrowsercompitibility"
+  ],
+  "author": "mrugeshparekh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrugeshparekh/crossBowserCompitibilityPostCss/issues"
+  },
+  "homepage": "https://github.com/mrugeshparekh/crossBowserCompitibilityPostCss#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.1",
+    "pixrem": "^3.0.0",
+    "postcss-color-rgba-fallback": "^2.0.0",
+    "postcss-opacity": "^3.0.0",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-vmin": "^2.0.0",
+    "postcss-will-change": "^1.0.0"
+  }
+}
